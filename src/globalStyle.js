@@ -26,6 +26,16 @@ export const Section = styled.section`
     padding: 160px 0;
 `;
 
+export const ButtonGold = styled.button`
+    border-radius: 4px;
+    white-space: nowrap;
+    color: white;
+    outline: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+
+    
+`
 
 
 

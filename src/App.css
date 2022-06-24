@@ -1,3 +1,25 @@
+:root {
+ --main-color: #101522;
+ --black : #000;
+ --white : #fff;   
+ --blue  : #00488b;
+ --dark-blue : #0A1930;
+ --light-blue : #1F93FF;
+ --grey  : #666;
+ --dark-grey : #333333;
+ --dark-bg : #242424;
+ --grey2 : #888888;
+ --light-grey : #bbbbbb;
+ --light2 : #eeeeee;
+ --border-color : #90949C;
+ --gold  : #fc0;
+ --box-shadow : 0 .5rem 1rem rgba(0,0,0.1);
+ --border : .1rem solid rgba(0,0,0, .3);
+ --heights-50: 50vh;
+ --widths-100: 100%;
+}
+
+
 html {
     scroll-behavior: smooth;
 }
