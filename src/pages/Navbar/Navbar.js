@@ -8,10 +8,20 @@ import {
     NavMenu,
     NavItem,
     NavLinks,
-    DropDownTeams,
+    NavbarSosialIcons,
+    NavbarIconLink,
 
 } from './NavbarElements';
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { 
+    FaBars, 
+    FaTimes,
+    FaFacebook,
+    FaInstagram,
+    FaYoutube,
+    FaTwitter,
+    FaTiktok,
+    FaDiscord 
+} from 'react-icons/fa';
 
 const Navbar = () => {
 
@@ -82,19 +92,68 @@ const Navbar = () => {
                     </NavItem>
 
                     <NavItem>
-                        <NavLinks to='/teams' ref={btnDropDownRef} onClick={() => {
-                            dropdown ? closeDropDown() : openDropdown ();
-                        }}> TEAMS
+                        <NavLinks to='/teams' onClick={closeMobileMenu}>
+                            TEAMS
                         </NavLinks>
-                            <div ref={DropdownRef} className={
-                                (dropdown ? 'block' : 'hidden')
-                            }
-                            >
-                                <a href='/dota2' className='text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-white' onClick={e =}
-                            </div>
-
+                    </NavItem>
+                
+                    <NavItem>
+                        <NavLinks to='/partners' onClick={closeMobileMenu}>
+                            PARTNERS
+                        </NavLinks>
                     </NavItem>
 
+                    {/* Sosial Navbar */}
+
+                    <NavbarSosialIcons>
+                        <NavbarIconLink
+                            href='https://www.facebook.com/TeamM11Esports' target='_blank'
+                            arial-label='Facebook'
+                        >
+                            <FaFacebook />
+                        </NavbarIconLink>
+
+                        <NavbarIconLink
+                            href='https://www.instagram.com/teamm11_esports/'
+                            target='_blank'
+                            aria-label='Instagram'
+                        >
+                            <FaInstagram />
+                        </NavbarIconLink>
+
+                        <NavbarIconLink
+                            href='https://www.youtube.com/c/TeamM11ESports'
+                            target='_blank'
+                            aria-label='Youtube'
+                        >
+                            <FaYoutube />
+                        </NavbarIconLink>
+
+                        <NavbarIconLink
+                            href='https://twitter.com/M11Team'
+                            target='_blank'
+                            aria-label='Twitter'
+                        >
+                            <FaTwitter />
+                        </NavbarIconLink>
+
+                        <NavbarIconLink
+                            href='https://www.tiktok.com/@teamm11_esports'
+                            target='_blank'
+                            aria-label='Tiktok'
+                        >
+                            <FaTiktok />
+                        </NavbarIconLink>
+
+                        <NavbarIconLink
+                            href='https://discord.gg/gj356CUz4w'
+                            target='_blank'
+                            aria-label='Discord'
+                        >
+                            <FaDiscord />
+
+                        </NavbarIconLink>
+                    </NavbarSosialIcons>
                 </NavMenu>
             </NavbarContainer>
         </Nav>
@@ -102,4 +161,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;

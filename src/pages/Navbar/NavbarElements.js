@@ -36,6 +36,7 @@ export const NavLogo = styled.img.attrs({
 
 export const MobileIcon = styled.div`
     display: none;
+    color: white;
 
     @media screen and (max-width: 960px) {
         display: block;
@@ -57,7 +58,7 @@ export const NavMenu = styled.ul`
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 98vh;
+        height: 88vh;
         position: absolute;
         top: 100px;
         opacity: 1;
@@ -74,7 +75,6 @@ export const NavItem = styled.li`
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 120px;
     }
 `;
 
@@ -99,13 +99,37 @@ export const NavLinks = styled(Link)`
     }
 `;
 
-export const DropDownTeams = styled.button`
-    color: white;
+export const NavbarSosialIcons = styled.div`
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    height: 100%;
+    width: 130px;
+    top: 0;
+
+    @media screen and (max-width: 960px){
+        width: 180px;
+        margin: 20px 20px 20px 20px;
+        padding-top: 0;
+    }
 `;
+
+export const NavbarIconLink = styled.a`
+    font-size: 24px;
+    color: white;
+    padding: 0.1rem 0.1rem;
+
+    &:hover {
+        color: gold;
+    }
+
+    @media screen and (max-width: 960px){
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+`;
+
+
+
 
 
