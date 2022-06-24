@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 export const LiveVideoSection = styled.section`
     width: 100%;
-    text-align-center;
+    text-align: center;
     padding: 4rem 0;
     background-color: #101522;
+
 `;
 
 export const LiveVideoTitle = styled.h1`

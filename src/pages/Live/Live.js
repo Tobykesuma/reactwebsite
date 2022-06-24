@@ -18,7 +18,7 @@ const Live = () => {
             </LiveVideoTitle>
             <LiveVideoWrapper>
                 <LiveVideoBox>
-                    <ReactPlayer url='https://www.youtube.com/watch?v=_U6kObwLyUg' height={1000} width={1800} className='LiveMobile'/>
+                    <ReactPlayer url='https://www.youtube.com/watch?v=_U6kObwLyUg' height={1000} width={1850} className='LiveMobile'/>
                 </LiveVideoBox>
             </LiveVideoWrapper>
         </LiveVideoSection>
