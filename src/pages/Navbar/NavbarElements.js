@@ -14,13 +14,18 @@ export const Nav = styled.nav`
     position: sticky;
     top: 0;
     z-index: 999;
+    border-bottom: none;
+
+    @media screen and (max-width: 960px){
+        border-bottom: 1px solid #fff;
+    }
 `;
 
 export const NavbarContainer = styled(Container)`
     display:flex;
     justify-content: space-between;
     height: 80px;
-
+    
     ${Container}
 `;
 
