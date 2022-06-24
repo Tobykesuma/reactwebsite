@@ -1,0 +1,12 @@
+@media screen and (max-width: 960px){
+    .LiveMobile {
+    height: 180px !important;
+    width: 300px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    justify-items: center !important;
+    justify-self: center !important;
+}
+}
+
+
