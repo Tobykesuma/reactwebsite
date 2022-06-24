@@ -104,7 +104,7 @@ export const NavbarSosialIcons = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 130px;
+    // width: 130px;
     top: 0;
 
     @media screen and (max-width: 960px){

@@ -84,19 +84,19 @@ const Footer = () => {
                         <FooterLinkTitle>
                             Social Media
                         </FooterLinkTitle>
-                        <FooterLink to='' target='_blank'>
+                        <FooterLink to='https://www.instagram.com/teamm11_esports/' target='_blank'>
                             Instagram
                         </FooterLink>
-                        <FooterLink to='' target='_blank'>
+                        <FooterLink to='https://www.youtube.com/c/TeamM11ESports' target='_blank'>
                             Youtube
                         </FooterLink>
-                        <FooterLink to='' target='_blank'>
+                        <FooterLink to='https://www.facebook.com/TeamM11Esports' target='_blank'>
                             Facebook
                         </FooterLink>
-                        <FooterLink to='' target='_blank'>
+                        <FooterLink to='https://twitter.com/M11Team' target='_blank'>
                             Twitter
                         </FooterLink>
-                        <FooterLink to='' target='_blank'>
+                        <FooterLink to='https://www.tiktok.com/@teamm11_esports' target='_blank'>
                             Tiktok
                         </FooterLink>
                     </FooterLinkItems>
