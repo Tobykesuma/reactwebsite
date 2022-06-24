@@ -117,7 +117,7 @@ export const NavbarSosialIcons = styled.div`
 export const NavbarIconLink = styled.a`
     font-size: 24px;
     color: white;
-    padding: 0.1rem 0.1rem;
+    padding: 0.2rem 0.2rem;
 
     &:hover {
         color: gold;

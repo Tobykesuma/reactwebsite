@@ -34,7 +34,40 @@ export const ButtonGold = styled.button`
     border: 1px solid #fff;
     cursor: pointer;
 
-    
+`;
+
+export const Button = styled.button`
+    border-radius: 4px;
+    background: ${({ primary }) => (primary ? '#101522' : '#00488b')};
+    white-space: nowrap;
+    padding: ${({ big })  => (big ? '12px 64px' : '10px 20px')};
+    color: white;
+    outline: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+
+    &:hover {
+        transition: all 0.4s ease-out;
+        background: #00488b;
+        color: gold;
+        background-color: ${({ primary }) => (primary ? '#0467FB' : '#4b59f7')};
+
+    }
+
+    @media screen and (max-width: 960px){
+        width: 100%;
+        padding: 25px 25px;
+        height: 0;
+        text-align: center;
+        justify-self: center;
+        display:flex;
+    }
 `
 
 
