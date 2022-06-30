@@ -72,6 +72,7 @@ export const AboutSub = styled.p`
         align-items: center;
         margin: 25px 25px 25px 25px;
         display: flex;
+        font-weight: 300;
     }
 `;
 
