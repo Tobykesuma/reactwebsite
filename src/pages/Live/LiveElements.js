@@ -35,7 +35,7 @@ export const LiveVideoWrapper = styled.div`
 
 export const LiveVideoBox = styled.div`
     height: 1000px;
-    width: 74.7%;
+   
 
     @media screen and (max-width: 960px){
         height: 130px;
