@@ -11,7 +11,7 @@ import {
     AboutRight,
     AboutBottomLink,
     AboutIMG,
-
+    
 } from './AboutElements';
 
 const About = () => {
