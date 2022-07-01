@@ -38,10 +38,6 @@ function App() {
           <Route path='/team/valorant' element={<Valorant />} />
           <Route path='/team/comingsoon' element={<ComingSoon />} />
           
-          
-
-
-
         </Routes>
         <Footer />
     </Router>

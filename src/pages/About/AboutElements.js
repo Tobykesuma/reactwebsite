@@ -304,15 +304,6 @@ export const ContactName2 = styled.h2`
     }
 `;
 
-export const ContactLinks = styled(Link)`
-
-`;
-
-export const ContactIcons = styled.icons`
-
-`;
-
-
 
 export const ContactInput = styled.input`
     width: 100%;
