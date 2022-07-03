@@ -7,6 +7,15 @@ import {
   TeamsRow,
   TeamsColumn,
   TeamsBox,
+  TeamsBoxImg,
+  TeamsImgBox,
+  TeamsLink,
+  TeamsImageGameDota,
+  TeamsEfect,
+  TeamsMeta,
+  TeamsLinkLink,
+  TeamsNameGame,
+
 
 } from './TeamsElements';
 
@@ -26,7 +35,21 @@ const Teams = () => {
             <TeamsRow>
               <TeamsColumn>
                 <TeamsBox>
-                  
+                  <TeamsBoxImg>
+                    <TeamsImgBox>
+                        <TeamsLink to='/team/dota2'>
+                          <TeamsImageGameDota />
+                        </TeamsLink>
+                    </TeamsImgBox>
+                    <TeamsEfect />
+                  </TeamsBoxImg>
+                      <TeamsMeta>
+                        <TeamsLinkLink to='/team/dota2'>
+                            <TeamsNameGame>
+                              DOTA 2
+                            </TeamsNameGame>
+                        </TeamsLinkLink>
+                      </TeamsMeta>
                 </TeamsBox>
               </TeamsColumn>
             </TeamsRow>

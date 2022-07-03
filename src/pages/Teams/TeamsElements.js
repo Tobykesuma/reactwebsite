@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Container } from '../../globalStyle';
 import { Link } from "react-router-dom";
-
+import Dota2TeamsBG from '../../assets/dota.jpg';
 
 
 export const TeamsSection = styled.section`
@@ -37,6 +37,8 @@ export const TeamsContainer = styled(Container)`
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
+
+    ${Container}
 `;
 
 export const TeamsRow = styled.div`
@@ -71,7 +73,10 @@ export const TeamsBox = styled.div`
     object-fit: cover;
     cursor: pointer;
     position: relative;
-    
+
+    &:hover  {
+        transform: scale(1.1);
+    }
 
     @media screen and (max-width: 960px){
 
@@ -79,17 +84,144 @@ export const TeamsBox = styled.div`
 `;
 
 export const TeamsBoxImg = styled.div`
-
+    position: relative;
+    cursor: pointer;
 `;
 
 export const TeamsImgBox = styled.div`
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 
-`;
+    &:hover {
+        transform: scale(1.2);
+        filter: blur(2px);
+    }
+
+    @media screen and (max-width: 960px){
+
+    }
+`;  
 
 export const TeamsLink = styled(Link)`
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        color: gold;
+    }
+
+    @media screen and (max-width: 960px){
+        font-size: 12px;
+    }
+`;
+
+export const TeamsImageGameDota = styled.img.attrs({
+    src: `${Dota2TeamsBG}`
+})`
+    border-radius: 10px;
+    object-fit: cover;
+    transition: .4s;
+    opacity: 7;
+    position: relative;
+    width: 380px;
+    height: 550px;
+
+    &:after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        z-index: 1;
+        opacity: 1;
+    }
+
+    &:hover {
+        transform: scale(1.1);
+    }
+`;
+
+export const TeamsEfect = styled.div`
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    background-color: black;
+    border-radius: 10px;
+    transition: .4s;
+    opacity: .1;
+    display: none;
+
+    &:hover {
+        display: inline;
+        transform: scale(1.1);
+    }
+`;
+
+export const TeamsMeta = styled.div`
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    width: 100%;
 
 `;
 
-export const TeamsImageGame = styled.img.attrs`
-    src: 
-`
+export const TeamsLinkLink = styled(Link)`
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    &:hover {
+        color: gold;
+    }
+
+    @media screen and (max-width: 960px){
+        font-size: 12px;
+    }
+`;
+
+export const TeamsNameGame = styled.h1`
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 3rem;
+    position: relative;
+    color: white;
+    z-index: 1;
+
+    &:before,
+    &:after {
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 0;
+        background: white;
+        transition: width .3s ease-out .2s;
+    }
+
+
+    &:hover {
+        color: gold;
+    }
+
+    @media screen and (max-width: 960px){
+        font-size: 12px;
+    }
+
+`;
