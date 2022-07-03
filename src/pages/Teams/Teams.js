@@ -15,7 +15,9 @@ import {
   TeamsMeta,
   TeamsLinkLink,
   TeamsNameGame,
-
+  TeamsImageGameMLBB,
+  TeamsImageGamePUBGM,
+  TeamsImageGameValorant,
 
 } from './TeamsElements';
 
@@ -33,6 +35,7 @@ const Teams = () => {
         </TeamsHeading>
           <TeamsContainer>
             <TeamsRow>
+
               <TeamsColumn>
                 <TeamsBox>
                   <TeamsBoxImg>
@@ -52,6 +55,67 @@ const Teams = () => {
                       </TeamsMeta>
                 </TeamsBox>
               </TeamsColumn>
+
+              <TeamsColumn>
+                <TeamsBox>
+                  <TeamsBoxImg>
+                    <TeamsImgBox>
+                        <TeamsLink to='/team/pubgmobile'>
+                          <TeamsImageGamePUBGM />
+                        </TeamsLink>
+                    </TeamsImgBox>
+                    <TeamsEfect />
+                  </TeamsBoxImg>
+                      <TeamsMeta>
+                        <TeamsLinkLink to='/team/pubgmobile'>
+                            <TeamsNameGame>
+                              PUBGM
+                            </TeamsNameGame>
+                        </TeamsLinkLink>
+                      </TeamsMeta>
+                </TeamsBox>
+              </TeamsColumn>
+
+              <TeamsColumn>
+                <TeamsBox>
+                  <TeamsBoxImg>
+                    <TeamsImgBox>
+                        <TeamsLink to='/team/mlbb'>
+                          <TeamsImageGameMLBB />
+                        </TeamsLink>
+                    </TeamsImgBox>
+                    <TeamsEfect />
+                  </TeamsBoxImg>
+                      <TeamsMeta>
+                        <TeamsLinkLink to='/team/mlbb'>
+                            <TeamsNameGame>
+                              MLBB
+                            </TeamsNameGame>
+                        </TeamsLinkLink>
+                      </TeamsMeta>
+                </TeamsBox>
+              </TeamsColumn>
+
+              <TeamsColumn>
+                <TeamsBox>
+                  <TeamsBoxImg>
+                    <TeamsImgBox>
+                        <TeamsLink to='/team/valorant'>
+                          <TeamsImageGameValorant />
+                        </TeamsLink>
+                    </TeamsImgBox>
+                    <TeamsEfect />
+                  </TeamsBoxImg>
+                      <TeamsMeta>
+                        <TeamsLinkLink to='/team/valorant'>
+                            <TeamsNameGame>
+                              VALORANT
+                            </TeamsNameGame>
+                        </TeamsLinkLink>
+                      </TeamsMeta>
+                </TeamsBox>
+              </TeamsColumn>
+
             </TeamsRow>
           </TeamsContainer>
 
@@ -60,4 +124,4 @@ const Teams = () => {
   );
 }
 
-export default Teams
+export default Teams;
