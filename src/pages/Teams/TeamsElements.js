@@ -27,6 +27,7 @@ export const TeamsHeading = styled.div`
 export const TeamsTitle = styled.h1`
     font-size: 45px;
     color: white;
+    border-bottom: 5px solid white;
 
     @media screen and (max-width: 960px){
         font-size: 24px;
@@ -294,6 +295,7 @@ export const TeamsNameGame = styled.h1`
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
     z-index: 1;
+    display: inline;
 
     &:before,
     &:after {
@@ -305,9 +307,9 @@ export const TeamsNameGame = styled.h1`
         transition: width .3s ease-out .2s;
     }
 
-
     &:hover {
         color: gold;
+        display: inline;
     }
 
     @media screen and (max-width: 960px){

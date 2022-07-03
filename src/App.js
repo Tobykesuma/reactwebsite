@@ -14,6 +14,7 @@ import Dota2 from './pages/Dota2/Dota2';
 import ComingSoon from './pages/ComingSoon/ComingSoon';
 import FAQ from './pages/FAQ/FAQ';
 import PartnersNav from './pages/Partners/PartnersNav';
+import Schedule from './pages/Schedule/Schedule';
 
 
 
@@ -30,6 +31,7 @@ function App() {
           <Route path='/about' element={<AboutNav />} />
           <Route path='/news' element={<NewsNav />} />
           <Route path='/faq' element={<FAQ />} />
+          <Route path='/schedule' element={<Schedule />} />
           <Route path='/partners' element={<PartnersNav />} />
           <Route path='/teams' element={<TeamsNav />} />
           <Route path='/team/dota2' element={<Dota2 />} />
