@@ -38,7 +38,7 @@ function App() {
           <Route path='/team/pubgmobile' element={<PUBGM />} />
           <Route path='/team/mlbb' element={<MobileLegend />} />
           <Route path='/team/valorant' element={<Valorant />} />
-          <Route path='/team/comingsoon' element={<ComingSoon />} />
+          <Route path='/comingsoon' element={<ComingSoon />} />
           
         </Routes>
         <Footer />

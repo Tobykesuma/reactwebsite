@@ -75,7 +75,7 @@ const Footer = () => {
                         <FooterLink to='/team/valorant'>
                             Valorant
                         </FooterLink>
-                        <FooterLink to='/team/comingsoon'>
+                        <FooterLink to='/comingsoon'>
                             Coming Soon
                         </FooterLink>
                     </FooterLinkItems>

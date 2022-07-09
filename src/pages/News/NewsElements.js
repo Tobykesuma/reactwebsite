@@ -26,6 +26,8 @@ export const NewsTitle = styled.h1`
         text-align: center;
         align-items: center;
         justify-content: center;
+        margin: 2rem;
+        border-bottom: 1px solid white;
     }
 `;
 

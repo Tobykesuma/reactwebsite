@@ -31,6 +31,7 @@ export const TeamsTitle = styled.h1`
 
     @media screen and (max-width: 960px){
         font-size: 24px;
+        border-bottom: 1px solid white;
     }
 `;
 
