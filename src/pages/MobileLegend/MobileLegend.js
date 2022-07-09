@@ -17,8 +17,18 @@ import {
   MLBBName,
   MLBBNameTitle,
   MLBBBio,
+  AchievementsTrophy,
+  AchievementsTrophyTitle,
+  TrophySection,
+  TrophyContainer,
+  TrophyBox,
+  TrophyIcons,
+  TrophyText,
+  TrophyTextName,
+  TrophyHR,
 
 } from './MobileLegendElements';
+import { BsFillTrophyFill } from 'react-icons/bs';
 
 
 const MobileLegend = () => {
@@ -124,6 +134,33 @@ const MobileLegend = () => {
           </MobileLegendBox>
         </MobileLegendList>
       </MobileLegendBoxContainer>
+
+      {/* Trophy MLBB Team */}
+      <AchievementsTrophy>
+        <AchievementsTrophyTitle>
+          ACHIEVEMENTS
+        </AchievementsTrophyTitle>
+
+        <TrophySection>
+          <TrophyContainer>
+            <TrophyBox>
+              <TrophyIcons>
+                <BsFillTrophyFill />
+              </TrophyIcons>
+              <TrophyText>
+                2nd
+              </TrophyText>
+              <TrophyTextName>
+                BEROCCA
+              </TrophyTextName>
+              <TrophyHR />
+            </TrophyBox>
+          </TrophyContainer>
+        </TrophySection>
+
+      </AchievementsTrophy>
+
+
 
       </MobileLegendSection>
     
