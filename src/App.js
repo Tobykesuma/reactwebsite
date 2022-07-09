@@ -15,7 +15,7 @@ import ComingSoon from './pages/ComingSoon/ComingSoon';
 import FAQ from './pages/FAQ/FAQ';
 import PartnersNav from './pages/Partners/PartnersNav';
 import Schedule from './pages/Schedule/Schedule';
-
+import { AnimatePresence } from 'framer-motion';
 
 
 
@@ -24,6 +24,7 @@ import Schedule from './pages/Schedule/Schedule';
 function App() {
   return (
     <Router>
+      <AnimatePresence>
         <GlobalStyle />
         <Navbar />
         <Routes>
@@ -42,6 +43,7 @@ function App() {
           
         </Routes>
         <Footer />
+        </AnimatePresence>
     </Router>
   );
 }

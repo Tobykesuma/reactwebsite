@@ -18,9 +18,14 @@ import {
     ContactTextarea,
     ContactName,
     ContactName2,
-
-
+    ContactIcons,
+    ContactLink,
 } from './AboutElements';
+
+import { MdOutlineEmail } from 'react-icons/md';
+import { RiMessengerLine } from 'react-icons/ri';
+import { BsWhatsapp } from 'react-icons/bs';
+
 
 
 const AboutNav = () => {
@@ -43,23 +48,29 @@ const AboutNav = () => {
                 </AboutNavFlexSpace>
         </AboutNavSection>
 
-        <ContactAbout>
-                    <ContactTitle>
-                        CONTACT
-                    </ContactTitle>
-                    {/* <ContactContainer>
-                        <ContactOptionSection> */}
-                            {/* <ContactOption>
+        {/* <ContactAbout>
+            <ContactTitle>
+                CONTACT
+            </ContactTitle>
+                <ContactContainer>
+                    <ContactOptionSection>
+                        <ContactOption>
+                            <ContactIcons>
+                                <MdOutlineEmail />
                                 <ContactName>
                                     Email
                                 </ContactName>
-                                <ContactName2>
-                                    teamm11bali@gmail.com
-                                </ContactName2>
-                            </ContactOption> */}
-                        {/* </ContactOptionSection>
-                    </ContactContainer> */}
-        </ContactAbout>
+                                    <ContactName2>
+                                        teamm11bali@gmail.com
+                                    </ContactName2>
+                                    <ContactLink to='mailto:teamm11bali@gmail.com' target='_blank'>
+                                        Send a Message
+                                    </ContactLink>
+                            </ContactIcons>
+                        </ContactOption>
+                    </ContactOptionSection>
+                </ContactContainer>
+        </ContactAbout> */}
     
     </>
   )

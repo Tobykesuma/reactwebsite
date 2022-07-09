@@ -229,15 +229,31 @@ const Dota2 = () => {
               </TrophyBox>
             </TrophyContainer>
           </TrophySection>
+
+          <TrophySection>
+            <TrophyContainer>
+              <TrophyBox>
+                <TrophyIcons>
+                <BsFillTrophyFill>
+                </BsFillTrophyFill> 
+                </TrophyIcons>
+                <TrophyText>
+                  1st  
+                </TrophyText>   
+                <TrophyTextName>
+                K99 COMMUNITY LEAGUE 2022
+                </TrophyTextName>  
+                <TrophyHR />    
+              </TrophyBox>
+            </TrophyContainer>
+          </TrophySection>
+
+
+
           </AchievementsTrophy>
-
-          
-          
-          
-
       </Dota2Section>
     </>
-  )
+  );
 }
 
-export default Dota2
+export default Dota2;

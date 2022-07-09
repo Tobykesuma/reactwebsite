@@ -205,6 +205,7 @@ export const AboutNavSub = styled.p`
 export const ContactAbout = styled.div`
     padding: 1rem 0;
     height: 100vh;
+    background-color: #101522;
 
     @media screen and (max-width: 960px){
         height: 60vh;
@@ -217,6 +218,8 @@ export const ContactTitle = styled.h1`
     font-size: 40px;
     justify: center;
     text-align: center;
+    color: white;
+
 
     @media screen and (max-width: 960px){
         font-size: 24px;
@@ -230,6 +233,7 @@ export const ContactContainer = styled(Container)`
     grid-template-columns: 30% 58%;
     margin: 0 auto;
     width: 60%;
+    background-color: #101522;
 
     @media screen and (max-width: 960px){
         gap: 2rem;
@@ -250,17 +254,34 @@ export const ContactOptionSection = styled.div`
 `;
 
 export const ContactOption = styled.article`
-    background: ;
+    background: #101522;
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
     border: 1px solid transparent;
     transition: all 0.2s ease-out;
+    border: 2px solid white;
 
     &:hover {
-        background: ;
+        background: gold;
     }
 `;
+
+export const ContactIcons = styled.div`
+    font-size: 24px;
+    margin-bottom: 0.5rem;
+    color: white;
+
+    @media screen and (max-width: 960px){
+
+    }
+
+    &:hover {
+        color: black;
+    }
+`;
+
+
 
 export const ContactButton = styled.button`
     width: max-content;
@@ -287,20 +308,48 @@ export const ContactButton = styled.button`
 
 
 export const ContactName = styled.h1`
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
+    color: white;
 
     @media screen and (max-width: 960px){
         font-size: 20px;
     }
+
+    &:hover {
+        color: black;
+    }
 `;
 
 export const ContactName2 = styled.h2`
-    font-size: 40px;
+    font-size: 18px;
     text-align: center;
+    color: white;
+    margin-top: 25px;
+
 
     @media screen and (max-width: 960px){
         font-size: 20px;
+    }
+
+    &:hover {
+        color: black;
+    }
+`;
+
+export const ContactLink = styled.a`
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    text-styled: none;
+
+    &:hover {
+        color: black;
+    }
+
+    @media screen and (max-width: 960px){
+
     }
 `;
 

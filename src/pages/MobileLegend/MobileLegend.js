@@ -151,7 +151,41 @@ const MobileLegend = () => {
                 2nd
               </TrophyText>
               <TrophyTextName>
-                BEROCCA
+                Game Anti MEntok
+              </TrophyTextName>
+              <TrophyHR />
+            </TrophyBox>
+          </TrophyContainer>
+        </TrophySection>
+
+        <TrophySection>
+          <TrophyContainer>
+            <TrophyBox>
+              <TrophyIcons>
+                <BsFillTrophyFill />
+              </TrophyIcons>
+              <TrophyText>
+                1st
+              </TrophyText>
+              <TrophyTextName>
+                Erafone National Region Palembang
+              </TrophyTextName>
+              <TrophyHR />
+            </TrophyBox>
+          </TrophyContainer>
+        </TrophySection>
+
+        <TrophySection>
+          <TrophyContainer>
+            <TrophyBox>
+              <TrophyIcons>
+                <BsFillTrophyFill />
+              </TrophyIcons>
+              <TrophyText>
+                2nd
+              </TrophyText>
+              <TrophyTextName>
+                BARDI MLBB Championship
               </TrophyTextName>
               <TrophyHR />
             </TrophyBox>
@@ -165,7 +199,7 @@ const MobileLegend = () => {
       </MobileLegendSection>
     
     </>
-  )
+  );
 }
 
 export default MobileLegend;

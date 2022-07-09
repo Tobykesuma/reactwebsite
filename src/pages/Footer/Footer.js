@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import {
     FooterContainer ,
     FooterSubscription,
@@ -17,10 +17,30 @@ import {
     WebsiteRights
 } from './FooterElements';
 import { Button } from '../../globalStyle';
+import emailjs from '@emailjs/browser';
 
 
 
 const Footer = () => {
+    const form = useRef();
+
+    function sendEmail(e){
+        e.preventDefault();
+
+        emailjs.sendForm(
+            '',
+            '',
+            form.current,
+            ''
+        ).then((result) =>{
+            console.log(result.text);
+            console.log('message sent');
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
+
+
   return (
     <>
         <FooterContainer>
@@ -31,9 +51,9 @@ const Footer = () => {
                 <FooterSubText>
                     Subscribe us Now!
                 </FooterSubText>
-                <FooterForm>
+                <FooterForm ref={form} onSubmit={sendEmail}>
                     <FormInput name='email' type='email' placeholder='Your Email' />
-                    <Button fontBig>Subscribe</Button>
+                    <Button fontBig type='submit' value='Send'>Subscribe</Button>
                 </FooterForm>
             </FooterSubscription>
             <FooterLinkContainer>
