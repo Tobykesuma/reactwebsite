@@ -18,7 +18,15 @@ import {
   PlayerHated,
   PlayerHavinci,
   TBDImage,
-
+  TrophySection,
+  TrophyContainer,
+  TrophyBox,
+  TrophyIcons,
+  TrophyText,
+  TrophyTextName,
+  TrophyHR,
+  AchievementsTrophy,
+  AchievementsTrophyTitle
 } from './Dotoa2Elements';
 
 const Dota2 = () => {
@@ -126,6 +134,105 @@ const Dota2 = () => {
           </PlayerDotaBoxContainer>
 
           {/* Trophy  */}
+
+          <AchievementsTrophy>
+            <AchievementsTrophyTitle>
+              ACHIEVEMENTS
+            </AchievementsTrophyTitle>
+
+            <TrophySection>
+            <TrophyContainer>
+              <TrophyBox>
+                <TrophyIcons>
+                <BsFillTrophyFill>
+                </BsFillTrophyFill> 
+                </TrophyIcons>
+                <TrophyText>
+                  1st  
+                </TrophyText>   
+                <TrophyTextName>
+                LUPON WXC SEASON 7
+                </TrophyTextName>  
+                <TrophyHR />    
+              </TrophyBox>
+            </TrophyContainer>
+          </TrophySection>
+
+          <TrophySection>
+            <TrophyContainer>
+              <TrophyBox>
+                <TrophyIcons>
+                <BsFillTrophyFill>
+                </BsFillTrophyFill> 
+                </TrophyIcons>
+                <TrophyText>
+                  1st  
+                </TrophyText>   
+                <TrophyTextName>
+                ESL COMMUNITY BATTLE S1
+                </TrophyTextName>  
+                <TrophyHR />    
+              </TrophyBox>
+            </TrophyContainer>
+          </TrophySection>
+
+          <TrophySection>
+            <TrophyContainer>
+              <TrophyBox>
+                <TrophyIcons>
+                <BsFillTrophyFill>
+                </BsFillTrophyFill> 
+                </TrophyIcons>
+                <TrophyText>
+                  1st  
+                </TrophyText>   
+                <TrophyTextName>
+                ESL COMMUNITY BATTLE S2
+                </TrophyTextName>  
+                <TrophyHR />    
+              </TrophyBox>
+            </TrophyContainer>
+          </TrophySection>
+
+          <TrophySection>
+            <TrophyContainer>
+              <TrophyBox>
+                <TrophyIcons>
+                <BsFillTrophyFill>
+                </BsFillTrophyFill> 
+                </TrophyIcons>
+                <TrophyText>
+                  1st  
+                </TrophyText>   
+                <TrophyTextName>
+                PRASMUL OLYMPICS
+                </TrophyTextName>  
+                <TrophyHR />    
+              </TrophyBox>
+            </TrophyContainer>
+          </TrophySection>
+
+          <TrophySection>
+            <TrophyContainer>
+              <TrophyBox>
+                <TrophyIcons>
+                <BsFillTrophyFill>
+                </BsFillTrophyFill> 
+                </TrophyIcons>
+                <TrophyText>
+                  1st  
+                </TrophyText>   
+                <TrophyTextName>
+                OXTRADE YAMISOK S2
+                </TrophyTextName>  
+                <TrophyHR />    
+              </TrophyBox>
+            </TrophyContainer>
+          </TrophySection>
+          </AchievementsTrophy>
+
+          
+          
           
 
       </Dota2Section>
