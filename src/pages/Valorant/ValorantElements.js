@@ -1,10 +1,21 @@
 import styled from "styled-components";
 import { Container } from "../../globalStyle";
 import ValorantBackGroundTop from '../../assets/valorant-bg.jpg';
-import Aeror from '../../assets/AEROR.png';
-import Arzt from '../../assets/ARZT.png';
+import Aeror from '../../assets/Image/INCOSINTENT.png';
+import Arzt from '../../assets/Image/Arzt.png';
 import Hazard from '../../assets/HAZARD.png';
-import Mexicola from '../../assets/MEXICOLA.png';
+import Mexicola from '../../assets/Image/Envymask.png';
+import Ezzy from '../../assets/Image/Ezzy.png';
+// ladies valorant image //
+import Jexter from '../../assets/Image/Jexter.png';
+import Lynn from '../../assets/Image/Lynn.png';
+import Oreoo from '../../assets/Image/OREOO.png';
+import Piffle from '../../assets/Image/Piffle.png';
+import EscVR from '../../assets/Image/EscVR.png';
+
+
+
+
 
 
 export const ValorantSection = styled.section`
@@ -30,7 +41,7 @@ export const ValorantBorder = styled.div`
 `;
 
 export const ValorantTitle = styled.div`
-    top: 7%;
+    top: 3%;
     left: 0; right: 0;
     text-align: center;
     align-items: center;
@@ -98,6 +109,14 @@ export const ImgAeror = styled.img.attrs({
     vertical-align: middle;
 `;
 
+export const ImgEzzy = styled.img.attrs({
+    src: `${Ezzy}`
+})`
+    width: 200px;
+    border-style: none;
+    vertical-align: middle;
+`
+
 export const ImgMexicola = styled.img.attrs({
     src: `${Mexicola}`
 })`
@@ -116,6 +135,48 @@ export const ImgHazard = styled.img.attrs({
 
 export const ImgArzt = styled.img.attrs({
     src:`${Arzt}`
+})`
+    width: 200px;
+    border-style: none;
+    vertical-align: middle;
+`;
+
+// Valorant Ladies Image //
+
+export const ImgEscVr = styled.img.attrs({
+    src: `${EscVR}`
+})`
+    width: 200px;
+    border-style: none;
+    vertical-align: middle;
+`;
+
+export const ImgJexter = styled.img.attrs({
+    src: `${Jexter}`
+})`
+    width: 200px;
+    border-style: none;
+    vertical-align: middle;
+`;
+
+export const ImgLynn = styled.img.attrs({
+    src: `${Lynn}`
+})`
+    width: 200px;
+    border-style: none;
+    vertical-align: middle;
+`;
+
+export const ImgOreoo = styled.img.attrs({
+    src: `${Oreoo}`
+})`
+    width: : 200px;
+    border-style: none;
+    vertical-align: middle;
+`;
+
+export const ImgPiffle = styled.img.attrs({
+    src: `${Piffle}`
 })`
     width: 200px;
     border-style: none;

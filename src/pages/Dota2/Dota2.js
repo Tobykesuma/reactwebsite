@@ -17,6 +17,7 @@ import {
   PlayerUsagi,
   PlayerHated,
   PlayerHavinci,
+  TBDImage,
 
 } from './Dotoa2Elements';
 
@@ -32,6 +33,24 @@ const Dota2 = () => {
           </Dota2TitleHeading>
         </Dota2Title>
        </Dota2BackGround>
+
+          <PlayerDotaBoxContainer>
+            <PlayerList>
+              <PlayersDota2Box>
+                  <PlayersDota2Image>
+                    <TBDImage />
+                  </PlayersDota2Image>
+                  <PlayerDota2Name>
+                    <PlayerDota2NameTitle>
+                      TBD
+                    </PlayerDota2NameTitle>
+                  </PlayerDota2Name>
+                  <PlayerDota2Bio>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet consequuntur perspiciatis deserunt quidem. Nesciunt consequuntur id, a minima esse odit, natus accusamus modi, porro ex dolores maxime animi minus totam?
+                  </PlayerDota2Bio>
+              </PlayersDota2Box>  
+              </PlayerList>
+          </PlayerDotaBoxContainer>
 
           <PlayerDotaBoxContainer>
             <PlayerList>

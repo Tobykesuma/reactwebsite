@@ -13,9 +13,15 @@ import {
   ImgMexicola,
   ImgHazard,
   ImgArzt,
+  ImgEzzy,
   ValorantName,
   ValorantNameTitle,
   ValorantBio,
+  ImgEscVr,
+  ImgJexter,
+  ImgLynn,
+  ImgOreoo,
+  ImgPiffle,
 
 } from './ValorantElements';
 
@@ -41,7 +47,7 @@ const Valorant = () => {
               </ValorantImagePlayers>
               <ValorantName>
                 <ValorantNameTitle>
-                  AEROR
+                  INCOSINTENT
                 </ValorantNameTitle>
               </ValorantName>
               <ValorantBio>
@@ -95,7 +101,7 @@ const Valorant = () => {
               </ValorantImagePlayers>
               <ValorantName>
                 <ValorantNameTitle>
-                  MEXICOLA
+                  ENVYMASK
                 </ValorantNameTitle>
               </ValorantName>
               <ValorantBio>
@@ -105,6 +111,97 @@ const Valorant = () => {
           </ValorantList>
         </ValorantBoxContainer>
 
+        <ValorantBoxContainer>
+          <ValorantList>
+            <ValorantBox>
+              <ValorantImagePlayers>
+                <ImgEzzy />
+              </ValorantImagePlayers>
+              <ValorantName>
+                <ValorantNameTitle>
+                  EZZY
+                </ValorantNameTitle>
+              </ValorantName>
+              <ValorantBio>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur earum porro, reprehenderit quibusdam ab nihil magnam eum molestias. Ipsam alias natus ratione odit repellat accusantium similique recusandae et deserunt ea?
+              </ValorantBio>
+            </ValorantBox>
+          </ValorantList>
+        </ValorantBoxContainer>
+
+        <ValorantBoxContainer>
+          <ValorantList>
+            <ValorantBox>
+              <ValorantImagePlayers>
+                <ImgLynn />
+              </ValorantImagePlayers>
+              <ValorantName>
+                <ValorantNameTitle>
+                  LYNN
+                </ValorantNameTitle>
+              </ValorantName>
+              <ValorantBio>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur earum porro, reprehenderit quibusdam ab nihil magnam eum molestias. Ipsam alias natus ratione odit repellat accusantium similique recusandae et deserunt ea?
+              </ValorantBio>
+            </ValorantBox>
+          </ValorantList>
+        </ValorantBoxContainer>
+
+        <ValorantBoxContainer>
+          <ValorantList>
+            <ValorantBox>
+              <ValorantImagePlayers>
+                <ImgJexter />
+              </ValorantImagePlayers>
+              <ValorantName>
+                <ValorantNameTitle>
+                  JEXTER
+                </ValorantNameTitle>
+              </ValorantName>
+              <ValorantBio>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur earum porro, reprehenderit quibusdam ab nihil magnam eum molestias. Ipsam alias natus ratione odit repellat accusantium similique recusandae et deserunt ea?
+              </ValorantBio>
+            </ValorantBox>
+          </ValorantList>
+        </ValorantBoxContainer>
+
+        <ValorantBoxContainer>
+          <ValorantList>
+            <ValorantBox>
+              <ValorantImagePlayers>
+                <ImgEscVr />
+              </ValorantImagePlayers>
+              <ValorantName>
+                <ValorantNameTitle>
+                  ESCVR
+                </ValorantNameTitle>
+              </ValorantName>
+              <ValorantBio>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur earum porro, reprehenderit quibusdam ab nihil magnam eum molestias. Ipsam alias natus ratione odit repellat accusantium similique recusandae et deserunt ea?
+              </ValorantBio>
+            </ValorantBox>
+          </ValorantList>
+        </ValorantBoxContainer>
+
+        <ValorantBoxContainer>
+          <ValorantList>
+            <ValorantBox>
+              <ValorantImagePlayers>
+                <ImgPiffle />
+              </ValorantImagePlayers>
+              <ValorantName>
+                <ValorantNameTitle>
+                  PIFFLE
+                </ValorantNameTitle>
+              </ValorantName>
+              <ValorantBio>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur earum porro, reprehenderit quibusdam ab nihil magnam eum molestias. Ipsam alias natus ratione odit repellat accusantium similique recusandae et deserunt ea?
+              </ValorantBio>
+            </ValorantBox>
+          </ValorantList>
+        </ValorantBoxContainer>
+
+        
 
       </ValorantSection>
     </>

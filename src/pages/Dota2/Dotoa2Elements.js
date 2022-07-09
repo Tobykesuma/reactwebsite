@@ -6,6 +6,9 @@ import Havinci from '../../assets/HAVINCI.png';
 import Hated from '../../assets/HATED.png';
 import Usagi from '../../assets/USAGI.png';
 import Ramz from '../../assets/RAMZI.png';
+import TBDPhoto from '../../assets/Image/TBD.png';
+
+
 
 export const Dota2Section = styled.section`
     position: relative;
@@ -93,6 +96,14 @@ export const PlayersDota2Image = styled.div`
     object-fit: cover;
     padding-right: 50px;
     
+`;
+
+export const TBDImage = styled.img.attrs({
+    src: `${TBDPhoto}`
+})`
+    width: 200px;
+    border-style: none;
+    vertical-align: middle;
 `;
 
 export const PlayerDota2Img = styled.img.attrs({
