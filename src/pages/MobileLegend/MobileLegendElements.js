@@ -12,7 +12,7 @@ export const MobileLegendSection = styled.section`
     position: relative;
 
     @media screen and (max-width: 960px){
-
+        text-align: center;
     }
 `;
 
@@ -24,6 +24,10 @@ export const MobileLegendBackGround = styled.div`
     opacity: 0.8;
     background-image: url(${MobileLegendBackGroundTop});
     height: 350px;
+
+    @media screen and (max-width: 960px){
+        height: 100px;
+    }
 `;
 
 export const MobileLegendBorder = styled.div`
@@ -39,7 +43,7 @@ export const MobileLegendTitle = styled.div`
     position: absolute;
 
     @media screen and (max-width: 960px){
-
+        top: 1.8%;
     }
 `;
 
@@ -47,8 +51,8 @@ export const MobileLegendTitleHeading =  styled.h1`
     font-size: 45px;
     color: white;
 
-    @media screen (max-width: 960px){
-
+    @media screen and (max-width: 960px){
+        font-size: 20px;
     }
 `;
 
@@ -81,7 +85,8 @@ export const MobileLegendBox = styled.div`
     margin-left: 48rem;
 
     @media screen and (max-width: 960px){
-
+        margin-left: 2.2rem;
+        width: 10%;
     }
 `;
 
@@ -90,6 +95,10 @@ export const MLBBImagePlayers = styled.div`
     vertical-align: middle;
     object-fit: cover;
     padding-right: 50px;
+
+    @media screen and (max-width: 960px){
+        padding-right: 0;
+    }
 `;
 
 export const ImgAzraa = styled.img.attrs({
@@ -106,6 +115,10 @@ export const ImgNicc = styled.img.attrs({
     width: 200px;
     border-style: none;
     vertical-align: middle;
+
+    @media screen and (max-width: 960px){
+        width: 205px;
+    }
 `;
 
 export const ImgReyzo = styled.img.attrs({
@@ -114,6 +127,10 @@ export const ImgReyzo = styled.img.attrs({
     width: 200px;
     border-style: none;
     vertical-align: middle;
+
+    @media screen and (max-width: 960px){
+        width: 205px;
+    }
 `;
 
 export const ImgWinnie = styled.img.attrs({
@@ -122,6 +139,10 @@ export const ImgWinnie = styled.img.attrs({
     width: 200px;
     border-style: none;
     vertical-align: middle;
+
+    @media screen and (max-width: 960px){
+        width: 195px;
+    }
 `;
 
 export const ImgZyro = styled.img.attrs({
@@ -130,6 +151,10 @@ export const ImgZyro = styled.img.attrs({
     width: 200px;
     border-style: none;
     vertical-align: middle;
+
+    @media screen and (max-width: 960px){
+        width: 208px;
+    }
 `;
 
 export const MLBBName = styled.div`
@@ -144,6 +169,10 @@ export const MLBBNameTitle = styled.h1`
     margin-bottom: 10px;
     border-bottom: 2px solid white;
     width: 15%;
+
+    @media screen and (max-width: 960px){
+        font-size: 20px;
+    }
 `;
 
 export const MLBBBio = styled.p`
@@ -151,4 +180,8 @@ export const MLBBBio = styled.p`
     font-size: 20px;
     color: white;
     margin-top: 20px;
+
+    @media screen and (max-width: 960px){
+        font-size: 10px;
+    }
 `;

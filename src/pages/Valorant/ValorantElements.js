@@ -22,7 +22,7 @@ export const ValorantSection = styled.section`
     position: relative;
 
     @media screen and (max-width: 960px){
-
+        text-align: center;
     }
 `;
 
@@ -34,6 +34,10 @@ export const ValorantBackGround = styled.div`
     opacity: 0.8;
     background-image: url(${ValorantBackGroundTop});
     height: 350px;
+
+    @media screen and (max-width: 960px){
+        height: 100px;
+    }
 `;
 
 export const ValorantBorder = styled.div`
@@ -48,7 +52,7 @@ export const ValorantTitle = styled.div`
     position: absolute;
 
     @media screen and (max-width: 960px){
-
+         top: 0.9%;
     }
 `;
 
@@ -56,8 +60,8 @@ export const ValorantTitleHeading = styled.h1`
     font-size: 45px;
     color: white;
 
-    @media screen (max-width: 960px){
-
+    @media screen and (max-width: 960px){
+        font-size: 20px;
     }
 `;
 
@@ -90,7 +94,8 @@ export const ValorantBox = styled.div`
     margin-left: 48rem;
 
     @media screen and (max-width: 960px){
-
+        margin-left: 2.2rem;
+        width: 10%;
     }
 `;
 
@@ -99,6 +104,10 @@ export const ValorantImagePlayers = styled.div`
     vertical-align: middle;
     object-fit: cover;
     padding-right: 50px;
+
+    @media screen and (max-width: 960px){
+        padding-right: 0;
+    }
 `;
 
 export const ImgAeror = styled.img.attrs({
@@ -107,6 +116,10 @@ export const ImgAeror = styled.img.attrs({
     width: 200px;
     border-style: none;
     vertical-align: middle;
+
+    @media screen and (max-width: 960px){
+        width: 128px;
+    }
 `;
 
 export const ImgEzzy = styled.img.attrs({
@@ -115,7 +128,11 @@ export const ImgEzzy = styled.img.attrs({
     width: 200px;
     border-style: none;
     vertical-align: middle;
-`
+    
+    @media screen and (max-width: 960px){
+        width: 200px;
+    }
+`;
 
 export const ImgMexicola = styled.img.attrs({
     src: `${Mexicola}`
@@ -123,6 +140,10 @@ export const ImgMexicola = styled.img.attrs({
     width: 200px;
     border-style: none;
     vertical-align: middle;
+
+    @media screen and (max-width: 960px){
+        width: 152px;
+    }
 `;
 
 export const ImgHazard = styled.img.attrs({
@@ -131,6 +152,10 @@ export const ImgHazard = styled.img.attrs({
     width: 200px;
     border-style: none;
     vertical-align: middle;
+
+    @media screen and (max-width: 960px){
+        width: 180px;
+    }
 `;
 
 export const ImgArzt = styled.img.attrs({
@@ -139,6 +164,8 @@ export const ImgArzt = styled.img.attrs({
     width: 200px;
     border-style: none;
     vertical-align: middle;
+
+
 `;
 
 // Valorant Ladies Image //
@@ -149,6 +176,10 @@ export const ImgEscVr = styled.img.attrs({
     width: 200px;
     border-style: none;
     vertical-align: middle;
+
+    @media screen and (max-width: 960px){
+        width: 200px;
+    }
 `;
 
 export const ImgJexter = styled.img.attrs({
@@ -157,6 +188,10 @@ export const ImgJexter = styled.img.attrs({
     width: 200px;
     border-style: none;
     vertical-align: middle;
+
+    @media screen and (max-width: 960px){
+        width: 190px;
+    }
 `;
 
 export const ImgLynn = styled.img.attrs({
@@ -173,6 +208,7 @@ export const ImgOreoo = styled.img.attrs({
     width: : 200px;
     border-style: none;
     vertical-align: middle;
+
 `;
 
 export const ImgPiffle = styled.img.attrs({
@@ -181,6 +217,10 @@ export const ImgPiffle = styled.img.attrs({
     width: 200px;
     border-style: none;
     vertical-align: middle;
+
+    @media screen and (max-width: 960px){
+        width: 198px;
+    }
 `;
 
 export const ValorantName = styled.div`
@@ -195,6 +235,10 @@ export const ValorantNameTitle = styled.h1`
     margin-bottom: 10px;
     border-bottom: 2px solid white;
     width: 15%;
+
+    @media screen and (max-width: 960px){
+        font-size: 20px;
+    }
 `;
 
 export const ValorantBio = styled.p`
@@ -202,4 +246,8 @@ export const ValorantBio = styled.p`
     font-size: 20px;
     color: white;
     margin-top: 20px;
+
+    @media screen and (max-width: 960px){
+        font-size: 10px;
+    }
 `;

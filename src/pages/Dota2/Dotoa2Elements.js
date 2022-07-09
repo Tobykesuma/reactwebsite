@@ -26,6 +26,10 @@ export const Dota2BackGround = styled.div`
     opacity: 0.8;
     background-image: url(${Dota2BackGroundTop});
     height: 350px;
+
+    @media screen and (max-width: 960px){
+        height: 100px;
+    }
 `;
 
 export const Dota2Border = styled.div`
@@ -40,7 +44,7 @@ export const Dota2Title = styled.div`
     position: absolute;
 
     @media screen and (max-width: 960px){
-
+        top: 1.5%;
     }
 `;
 
@@ -50,7 +54,7 @@ export const Dota2TitleHeading = styled.h1`
 
 
     @media screen and (max-width: 960px){
-
+        font-size: 20px;
     }
 `;
 
@@ -73,6 +77,8 @@ export const PlayerList = styled.div`
     padding: 2rem 0.1rem 0.1rem 0.1rem;
     vertical-align: top;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 `;
 
 export const PlayersDota2Box = styled.div`
@@ -85,7 +91,8 @@ export const PlayersDota2Box = styled.div`
     margin-left: 48rem;
 
     @media screen and (max-width: 960px){
-
+        margin-left: 2.2rem;
+        width: 10%;
     }
 
 `;
@@ -96,6 +103,9 @@ export const PlayersDota2Image = styled.div`
     object-fit: cover;
     padding-right: 50px;
     
+    @media screen and (max-width: 960px){
+        padding-right: 0;
+    }
 `;
 
 export const TBDImage = styled.img.attrs({
@@ -104,6 +114,10 @@ export const TBDImage = styled.img.attrs({
     width: 200px;
     border-style: none;
     vertical-align: middle;
+
+    @media sreen and (max-width: 960px){
+        width: 50px;
+    }
 `;
 
 export const PlayerDota2Img = styled.img.attrs({
@@ -112,6 +126,8 @@ export const PlayerDota2Img = styled.img.attrs({
     width: 200px;
     border-style: none;
     vertical-align: middle;
+
+    
 `;
 
 export const PlayerUsagi = styled.img.attrs({
@@ -120,6 +136,10 @@ export const PlayerUsagi = styled.img.attrs({
     width: 200px;
     border-style: none;
     vertical-align: middle;
+
+    @media screen and (max-width: 960px){
+        width: 198px;
+    }
 `;
 
 export const PlayerHated = styled.img.attrs({
@@ -128,6 +148,10 @@ export const PlayerHated = styled.img.attrs({
     width: 200px;
     border-style: none;
     vertical-align: middle;
+
+    @media screen and (max-width: 960px){
+        width: 190px;
+    }
 `;
 
 export const PlayerHavinci = styled.img.attrs({
@@ -136,6 +160,10 @@ export const PlayerHavinci = styled.img.attrs({
     width:  200px;
     border-style: none;
     vertical-align: middle;
+
+    @media screen and (max-width: 960px){
+        width: 175px;
+    }
 `;
 
 
@@ -143,6 +171,7 @@ export const PlayerHavinci = styled.img.attrs({
 export const PlayerDota2Name = styled.div`
     margin-top: 30px;
     padding-left: 20px;
+
 `;
 
 export const PlayerDota2NameTitle = styled.h1`
@@ -152,6 +181,10 @@ export const PlayerDota2NameTitle = styled.h1`
     margin-bottom: 10px;
     border-bottom: 2px solid white;
     width: 15%;   
+
+    @media screen and (max-width: 960px){
+        font-size: 20px;
+    }
 `;
 
 export const PlayerDota2Bio = styled.p`
@@ -159,6 +192,10 @@ export const PlayerDota2Bio = styled.p`
     font-size: 20px;
     color: white;
     margin-top: 20px;
+
+    @media screen and (max-width: 960px){
+        font-size: 10px;
+    }
 `;
 
 

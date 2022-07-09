@@ -46,7 +46,7 @@ const Dota2 = () => {
                     </PlayerDota2NameTitle>
                   </PlayerDota2Name>
                   <PlayerDota2Bio>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet consequuntur perspiciatis deserunt quidem. Nesciunt consequuntur id, a minima esse odit, natus accusamus modi, porro ex dolores maxime animi minus totam?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet consequuntu perspiciatis 
                   </PlayerDota2Bio>
               </PlayersDota2Box>  
               </PlayerList>
@@ -101,7 +101,7 @@ const Dota2 = () => {
                     </PlayerDota2NameTitle>
                   </PlayerDota2Name>
                   <PlayerDota2Bio>
-                      Daniel AU "Hated" MMR Peak 9100. Daniel pernah bermain di beberapa Tim Online dan tim NGID Esports. Dan sekarang di Team M11 bermain sebagai posisi 4 (Soft Support).
+                      Daniel AU "Hated" MMR Peak 9100.Daniel pernah bermain di beberapa Tim Online dan tim NGID Esports.Dan sekarang di Team M11 bermain sebagai posisi 4 (Soft Support).
                   </PlayerDota2Bio>
               </PlayersDota2Box>  
               </PlayerList>

@@ -43,11 +43,11 @@ const Valorant = () => {
           <ValorantList>
             <ValorantBox>
               <ValorantImagePlayers>
-                <ImgAeror />
+                <ImgHazard />
               </ValorantImagePlayers>
               <ValorantName>
                 <ValorantNameTitle>
-                  INCOSINTENT
+                  HAZARD
                 </ValorantNameTitle>
               </ValorantName>
               <ValorantBio>
@@ -79,11 +79,11 @@ const Valorant = () => {
           <ValorantList>
             <ValorantBox>
               <ValorantImagePlayers>
-                <ImgHazard />
+                <ImgEzzy />
               </ValorantImagePlayers>
               <ValorantName>
                 <ValorantNameTitle>
-                  HAZARD
+                  EZZY
                 </ValorantNameTitle>
               </ValorantName>
               <ValorantBio>
@@ -115,11 +115,11 @@ const Valorant = () => {
           <ValorantList>
             <ValorantBox>
               <ValorantImagePlayers>
-                <ImgEzzy />
+                <ImgAeror />
               </ValorantImagePlayers>
               <ValorantName>
                 <ValorantNameTitle>
-                  EZZY
+                  INCOSINTENT
                 </ValorantNameTitle>
               </ValorantName>
               <ValorantBio>
@@ -128,6 +128,8 @@ const Valorant = () => {
             </ValorantBox>
           </ValorantList>
         </ValorantBoxContainer>
+
+        
 
         <ValorantBoxContainer>
           <ValorantList>
