@@ -5,6 +5,10 @@ import Dota2TeamsBG from '../../assets/dota.jpg';
 import PUBGMTeamBG from '../../assets/pubg.jpg';
 import MLBBTeamBG from '../../assets/MLBB.jpeg';
 import ValorantTeamBG from '../../assets/valorant.jpg';
+import TeamNavBackGrounds from '../../assets/background_about.jpg';
+
+
+
 
 export const TeamsSection = styled.section`
     text-align: center;
@@ -327,4 +331,134 @@ export const TeamsNameGame = styled.h1`
         font-size: 25px;
     }
 
+`;
+
+
+// Styled Elements Team NAV //
+
+export const TeamNavSection = styled.section`
+    position: relative;
+    display: flex;
+
+
+    @media screen and (max-width: 960px){
+        text-align: center;
+    }
+`;
+
+export const TeamNavContainer = styled(Container)`
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    // background-color: #101522;   
+
+    ${Container}
+`;
+
+export const TeamNavBackGround = styled.div`
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    opacity: 0.5;
+    background-image: url(${TeamNavBackGrounds});
+    border-bottom: 5px solid white;
+    height: 350px; 
+     
+
+    @media screen and (max-width: 960px){
+        height: 150px;
+    }
+`;
+
+export const TeamNavWrapper = styled.div`
+    display: flex;
+`;
+
+export const TeamNavSub = styled.p`
+    position: absolute;
+    top: 12%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    letter-spacing: 1px;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    padding-left: 800px;
+    padding-right: 800px;
+    color: black;
+
+    @media screen and (max-width: 960px){
+        padding-left: 25px;
+        padding-right: 25px;
+        top: 2%;
+        font-size: 8px;
+        font-weight: 400;
+    }
+`;
+
+export const TeamNavTitle = styled.h1`
+    color: black;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    letter-spacing: 1px;
+    align-items: center;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    justify-content: center;
+    padding-left: 800px;
+    padding-right: 800px;
+
+    @media screen and (max-width: 960px){
+        padding-left: 25px;
+        padding-right: 25px;
+        top: 6%;
+        font-size: 15px;
+        font-weight: 600;
+    }
+`;
+
+export const TeamNavContainer2 = styled(Container)`
+    padding-left: 495px;
+    padding-right: 495px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #101522;
+    display: flex;
+    padding-bottom: 100px;
+
+    @media screen and (max-width: 960px){
+        padding-left: 25px;
+        padding-right: 15px;
+        display: block;
+    }
+
+
+    ${Container}
+`;
+
+export const TeamNavColumns = styled.div`
+    display: flex;
+    max-width: 33.33333%;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    @media screen and (max-width: 768px){
+        max-width: 50%;
+    }
+
+    @media screen and (max-width: 480px){
+        max-width: 100%;
+        margin-top: 0;
+        padding: 20px;
+    }
 `;
