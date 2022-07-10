@@ -13,6 +13,10 @@ export const TeamsSection = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media screen and (max-width: 960px){
+        padding: 2rem 0;
+    }
 `;
 
 export const TeamsHeading = styled.div`
@@ -42,7 +46,13 @@ export const TeamsContainer = styled(Container)`
     align-content: center;
     flex-wrap: wrap;
 
+    @media screen and (max-width: 960px){
+        padding: 0;
+    }
+
     ${Container}
+
+    
 `;
 
 export const TeamsRow = styled.div`
@@ -70,6 +80,8 @@ export const TeamsColumn = styled.div`
 
     @media screen and (max-width: 480px){
         max-width: 100%;
+        margin-top: 0;
+        padding: 20px;
     }
 `;
 
@@ -90,7 +102,13 @@ export const TeamsBox = styled.div`
     }
 
     @media screen and (max-width: 960px){
+        width: 300px;
+        height: 400px;
+        transition: all .2s ease-in-out;
 
+        &:hover {
+            transfrom: scale(1.1);
+        }
     }
 `;
 
@@ -104,11 +122,6 @@ export const TeamsImgBox = styled.div`
     width: 100%;
     height: 100%;
     overflow: hidden;
-
-    &:hover {
-        transform: scale(1.2);
-        filter: blur(2px);
-    }
 
     @media screen and (max-width: 960px){
 
@@ -138,23 +151,23 @@ export const TeamsImageGameDota = styled.img.attrs({
     border-radius: 10px;
     object-fit: cover;
     transition: .4s;
-    opacity: 7;
+    opacity: 1;
     position: relative;
     width: 380px;
     height: 550px;
 
-    &:after {
+    &:before {
         content: '';
         width: 100%;
         height: 100%;
         background-color: black;
         z-index: 1;
         opacity: 1;
+        filter: blur(2px);
     },
 
     &:hover {
         transform: scale(1.1);
-        filter: blur(2px);
     }
 `;
 
@@ -170,7 +183,7 @@ export const TeamsImageGameMLBB = styled.img.attrs({
     width: 380px;
     height: 550px;
 
-    &:after {
+    &:before {
         content: '';
         width: 100%;
         height: 100%;
@@ -181,7 +194,6 @@ export const TeamsImageGameMLBB = styled.img.attrs({
 
     &:hover {
         transform: scale(1.1);
-        filter: blur(2px);
     }
 `;
 
@@ -196,7 +208,7 @@ export const TeamsImageGamePUBGM = styled.img.attrs({
     width: 380px;
     height: 550px;
 
-    &:after {
+    &:before {
         content: '';
         width: 100%;
         height: 100%;
@@ -207,7 +219,6 @@ export const TeamsImageGamePUBGM = styled.img.attrs({
 
     &:hover {
         transform: scale(1.1);
-        filter: blur(2px);
     }
 `;
 
@@ -222,7 +233,7 @@ export const TeamsImageGameValorant = styled.img.attrs({
     width: 380px;
     height: 550px;
 
-    &:after {
+    &:before {
         content: '';
         width: 100%;
         height: 100%;
@@ -233,7 +244,6 @@ export const TeamsImageGameValorant = styled.img.attrs({
 
     &:hover {
         transform: scale(1.1);
-        filter: blur(2px);
     }
 `;
 
